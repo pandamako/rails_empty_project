@@ -1,0 +1,22 @@
+development: &defaults
+  adapter: postgresql
+  encoding: utf8
+  database: development
+  username: development
+  password: your_password
+  host: localhost
+  pool: 100
+  timeout: 5000
+
+production:
+  <<: *defaults
+
+test:
+  adapter: postgresql
+  encoding: utf8
+  database: test
+  username: test
+  password: your_password
+  host: localhost
+  pool: 100
+  timeout: 5000

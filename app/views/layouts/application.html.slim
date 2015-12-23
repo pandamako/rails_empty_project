@@ -1,0 +1,11 @@
+doctype html
+html lang='ru-RU'
+  head
+    meta charset='UTF-8'
+    title ="empty rails project [#{Rails.env}]"
+    = csrf_meta_tag
+
+    = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true
+  body
+    = yield
