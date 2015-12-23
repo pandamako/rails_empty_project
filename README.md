@@ -13,3 +13,9 @@ Gems:
 * Error logging: [Honeybadger](https://www.honeybadger.io)
 
 * Tests: [Rspec](https://github.com/rspec/rspec)
+
+
+## Complete install some gems
+
+Honeybadger [instruction](http://docs.honeybadger.io/lib/ruby.html)
+SimpleForm [instruction](https://github.com/plataformatec/simple_form#installation)
