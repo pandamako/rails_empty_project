@@ -1,6 +1,7 @@
-== README
+# README
 
-This is empty raisl project with the most necessary gems and develop configs
+This is empty rails project with the most necessary gems and develop configs
+
 Gems:
 
 * DB: [postgres](https://bitbucket.org/ged/ruby-pg/wiki/Home)
