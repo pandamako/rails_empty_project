@@ -57,7 +57,7 @@ group :production, :staging do
 end
 
 gem 'draper' # presenters
-gem 'cancancan'
+gem 'cancancan', github: 'morr/cancancan', branch: 'master'
 
 gem 'state_machines-activerecord'
 gem 'activerecord-import'
