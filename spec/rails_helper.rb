@@ -68,7 +68,6 @@ RSpec.configure do |config|
   config.include FactoryGirl::Syntax::Methods
   config.include Devise::TestHelpers, type: :controller
   config.include ActionView::TestCase::Behavior, type: :decorator
-  config.include ControllerResource, type: :controller
 
   config.before :suite do
     DatabaseCleaner.strategy = :transaction
